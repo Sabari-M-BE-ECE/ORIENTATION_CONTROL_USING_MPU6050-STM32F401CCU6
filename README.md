@@ -1,6 +1,6 @@
 # ORIENTATION_CONTROL_USING_MPU6050-STM32F401CCU6
 **AIM**:
-- To interface an MPU6050 sensor with an STM32 microcontroller using I2C, read accelerometer data and compare the given data with the values given in the datasheet of the MPU6050 Sensor.
+- To interface an MPU6050 sensor with an STM32 microcontroller using I2C, read accelerometer data and compare the given data with the values given in the datasheet of the MPU6050 Sensor and kalman filtering roll angle.
 
 **Software Used**
 - STM32 CUBEIDE
@@ -26,5 +26,6 @@
 
 ![output1](https://github.com/Sabari-M-BE-ECE/ORIENTATION_CONTROL_USING_MPU6050-STM32F401CCU6/blob/main/data.png)
 ![output2](https://github.com/Sabari-M-BE-ECE/ORIENTATION_CONTROL_USING_MPU6050-STM32F401CCU6/blob/main/Screenshot%202025-06-01%20222953.png)
+![output2](https://github.com/Sabari-M-BE-ECE/ORIENTATION_CONTROL_USING_MPU6050-STM32F401CCU6/blob/main/kalman_filtered_output.png)
 
 **The output value is almost nearby to the value given in datasheet**(ie, output - 16406 , datasheet value - 16384)
